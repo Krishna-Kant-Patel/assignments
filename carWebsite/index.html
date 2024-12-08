@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Purchase Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>CarMart</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#cars">Cars</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Find Your Dream Car</h2>
+    <p>Explore our wide range of cars to find the perfect one for you.</p>
+    <button onclick="scrollToSection('cars')">Explore Cars</button>
+  </section>
+
+  <section id="cars" class="car-listing">
+    <h2>Available Cars</h2>
+    <div class="car-grid">
+      <div class="car-card">
+        <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80" alt="Car 1">
+        <h3>Car Model 1</h3>
+        <p>$20,000</p>
+      </div>
+      <div class="car-card">
+        <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/139651/curvv-exterior-right-front-three-quarter.jpeg?isig=0&q=80" alt="Car 2">
+        <h3>Car Model 2</h3>
+        <p>$25,000</p>
+      </div>
+      <div class="car-card">
+        <img src="https://www.shutterstock.com/image-photo/side-view-red-sedan-car-600nw-2512968427.jpg" alt="Car 3">
+        <h3>Car Model 3</h3>
+        <p>$30,000</p>
+      </div>
+      <div class="car-card">
+        <img src="https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Car 3">
+        <h3>Car Model 3</h3>
+        <p>$30,000</p>
+      </div>
+      <div class="car-card">
+        <img src="https://images.pexels.com/photos/810357/pexels-photo-810357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Car 3">
+        <h3>Car Model 3</h3>
+        <p>$30,000</p>
+      </div>
+      <div class="car-card">
+        <img src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Car 3">
+        <h3>Car Model 3</h3>
+        <p>$30,000</p>
+      </div>
+      <div class="car-card">
+        <img src="https://cdn.pixabay.com/photo/2019/07/24/23/09/car-4361321_1280.jpg" alt="Car 3">
+        <h3>Car Model 3</h3>
+        <p>$30,000</p>
+      </div>
+      <div class="car-card">
+        <img src="https://cdn.pixabay.com/photo/2016/04/01/12/16/car-1300629_1280.png" alt="Car 3">
+        <h3>Car Model 3</h3>
+        <p>$30,000</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-form">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 CarMart. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
